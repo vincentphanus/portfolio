@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+.background-img{
+  position:fixed;
+  height:60vh;
+  top:0%;
+  left:0%;
+  width:100vw;
+  background:url("http://www.hrmasia.com/sites/default/files/39156528_l.jpg") no-repeat center;
+  background-size:cover;
+}
+.background-img::after{
+  background-image: linear-gradient(to right, black, #6f7c80);
+  position:absolute;
+  opacity:0.50;
+    top:0%;
+  left:0%;
+  height:60vh;
+  width: 100vw;
+  content: '';
+}
+#name{
+  
+  z-index:11;
+  font-family:'Work Sans';
+  font-size:12vh;
+  width:100vw;
+  color:white;
+  position:absolute;
+  top:0%;
+  text-align:center;
+}
+.avatar, .left-img, .right-img{
+  z-index:10;
+  background-color:black;
+  position:absolute;
+  transform:translate(-50%, 0);
+  border-radius:50%;
+}
+.left-img, .right-img{
+  height:24vh;
+  width:13vw;
+  top:60%;
+    border: 0.2rem solid white;
+}
+.avatar{ 
+  height:38vh;
+  width:20vw;
+  top:60%;
+  left:50%;
+  border: 0.5rem solid white;
+}
+.left-img, #my-story-btn{
+  left:30%;
+}
+.right-img, #contact-me-btn{
+  left:70%;
+}
+.buttons{
+  position:relative;
+  top:65vh;
+  height:15vh;
+}
+#my-story-btn, #work-btn, #contact-me-btn{
+  position: absolute;
+}
+#my-story-btn, #contact-me-btn, #work-btn{
+  font-family:Alegreya Sans;
+  color:white;
+  font-size:4vh;
+    transform:translate(-50%, 0);
+    background-color:#64b5f6;
+  border-radius:1rem;
+  padding-left:1vw;
+  padding-right:1vw;
+  padding-top:0.5vh;
+  padding-bottom:0.5vh;
+}
+#work-btn{
+  top:100%;
+  left:50%;
+}
+
+#my-story-btn:hover, #work-btn:hover, #contact-me-btn:hover{
+  background-color:#2196f3;
+  font-size:5vh;
+}
+}
+
