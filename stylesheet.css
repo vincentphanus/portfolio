@@ -31,6 +31,7 @@
   text-align:center;
 }
 .avatar, .left-img, .right-img{
+    background-size:contain;
   z-index:10;
   position:absolute;
   transform:translate(-50%, 0);
@@ -52,6 +53,7 @@
 }
 .left-img{
     background-image:url("vincentphanus.github.io/smiley.png");
+
 }
 .right-img{
     background-image:url("vincentphanus.github.io/heart.png");
