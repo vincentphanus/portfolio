@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Magra');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+html{
+    clip:auto;
+    overflow:hidden;
+}
 .background-img{
-  position:fixed;
+  position:absolute;
   height:60vh;
   top:0%;
   left:0%;
@@ -49,7 +53,7 @@
 
   height:38vh;
   width:20vw;
-  top:60%;
+  top:45%;
   left:50%;
   border: 0.5rem solid #f0f0f0;
 }
@@ -59,7 +63,7 @@
 .right-img{
     background-image:url(heart.png);
 }
-.left-img, #my-story-btn{
+.left-img, #work-btn{
   left:30%;
 }
 .right-img, #contact-me-btn{
@@ -85,14 +89,22 @@
   padding-top:0.5vh;
   padding-bottom:0.5vh;
 }
-#work-btn{
-  top:100%;
+#my-story-btn{
+  top:40%;
   left:50%;
 }
 
 #my-story-btn:hover, #work-btn:hover, #contact-me-btn:hover{
   background-color:#292929;
   font-size:6vh;
+}
+
+.copyright{
+    position:relative;
+    top:75vh;
+    font-size:1rem;
+    text-align:center;
+    color:#d1d1d1;
 }
 
 
