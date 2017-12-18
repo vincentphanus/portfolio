@@ -43,7 +43,7 @@
     border: 0.2rem solid white;
 }
 .avatar{ 
-    background-image:url("ava.jpeg");
+    background-image:url("vincentphanus.github.io/ava.jpg");
   height:38vh;
   width:20vw;
   top:60%;
@@ -51,10 +51,10 @@
   border: 0.5rem solid white;
 }
 .left-img{
-    background-image:url("smiley.png");
+    background-image:url("vincentphanus.github.io/smiley.png");
 }
 .right-img{
-    background-image:url("heart.png");
+    background-image:url("vincentphanus.github.io/heart.png");
 }
 .left-img, #my-story-btn{
   left:30%;
