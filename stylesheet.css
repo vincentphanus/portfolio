@@ -32,7 +32,6 @@
 }
 .avatar, .left-img, .right-img{
   z-index:10;
-  background-color:black;
   position:absolute;
   transform:translate(-50%, 0);
   border-radius:50%;
@@ -40,15 +39,22 @@
 .left-img, .right-img{
   height:24vh;
   width:13vw;
-  top:60%;
+  top:59%;
     border: 0.2rem solid white;
 }
 .avatar{ 
+    background-image:url("ava.jpeg");
   height:38vh;
   width:20vw;
   top:60%;
   left:50%;
   border: 0.5rem solid white;
+}
+.left-img{
+    background-image:url("smiley.png");
+}
+.right-img{
+    background-image:url("heart.png");
 }
 .left-img, #my-story-btn{
   left:30%;
@@ -85,5 +91,5 @@
   background-color:#2196f3;
   font-size:5vh;
 }
-}
+
 
