@@ -10,27 +10,42 @@
       <p id="name">
      VINCENT PHAN
     </p>
-    <div class="avatar">
+    <div class="avatar" > 
     </div>
-    <div class="left-img">
+    <div id="left-img">
     </div>
-    <div class="right-img">
+    <div id="right-img">
     </div>
   </div>
-  <div class="buttons">
-    <div id="my-story-btn">
+  <div class="buttons" id="buttons">
+    <div id="my-story-btn" onclick="goInvis()">
       MY STORY
     </div>
-    <div id="work-btn">
+    <div id="work-btn" onclick="goInvis()">
       WORK
     </div>
-    <div id="contact-me-btn">
+    <div id="contact-me-btn" onclick="goInvis()">
       CONTACT
+    </div>
+  </div>
+  <div id="hiddenText">
+    <p>Sorry. You're not </p><p id="red">authorized </p><p>:(</p>
     </div>
   </div>
   <div class="copyright">
     Copyright &#169 2017 - Duy Phan
   </div>
+  <form action="https://www.messenger.com/t/duyy278"><button type="submit" id="msg-btn"> Message me </button></form>
+  <script>
+    function goInvis(){
+  document.getElementById("buttons").style.display = 'none';
+  document.getElementById("hiddenText").style.display='block';
+  document.getElementById("left-img").style.backgroundImage = 'url(banned.png)';
+  document.getElementById("right-img").style.backgroundImage = 'url(banned.png)';
+  document.getElementById("msg-btn").style.display='block';
+  }
+  </script>
 </body>
+
 </html>
 

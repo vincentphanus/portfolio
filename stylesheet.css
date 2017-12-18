@@ -31,17 +31,17 @@ html{
   width:100vw;
   color:white;
   position:absolute;
-  top:-10%;
+  top:10%;
   text-align:center;
 }
-.avatar, .left-img, .right-img{
+.avatar, #left-img, #right-img{
     background-size:cover;
   z-index:10;
   position:absolute;
   transform:translate(-50%, 0);
   border-radius:50%;
 }
-.left-img, .right-img{
+#left-img, #right-img{
   height:25vh;
   width:15vw;
   top:62%;
@@ -57,16 +57,16 @@ html{
   left:50%;
   border: 0.5rem solid #f0f0f0;
 }
-.left-img{
+#left-img{
     background-image:url(smiley.png) ;
 }
-.right-img{
+#right-img{
     background-image:url(heart.png);
 }
-.left-img, #work-btn{
+#left-img, #work-btn{
   left:30%;
 }
-.right-img, #contact-me-btn{
+#right-img, #contact-me-btn{
   left:70%;
 }
 .buttons{
@@ -77,7 +77,7 @@ html{
 #my-story-btn, #work-btn, #contact-me-btn{
   position: absolute;
 }
-#my-story-btn, #contact-me-btn, #work-btn{
+button, #my-story-btn, #contact-me-btn, #work-btn{
   font-family:Alegreya Sans;
   color:white;
   font-size:5vh;
@@ -100,11 +100,41 @@ html{
 }
 
 .copyright{
-    position:relative;
-    top:75vh;
+    position:fixed;
+    top:92vh;
     font-size:1rem;
     text-align:center;
+    width:100vw;
     color:#d1d1d1;
 }
 
+#hiddenText{
+
+  position:fixed;
+  display:none;
+  top:70vh;
+  font-family:'Magra';
+  font-size:4rem;
+  width:100vw;
+  text-align:center;
+}
+p{
+  display:inline;
+  margin:0px 0px 0px 0px;
+}
+#red{
+  color:red;
+}
+
+button{
+  position:fixed;
+  background-color:#3795ec;
+  top:82vh;
+  left:50%;
+  display:none;
+}
+
+button:hover{
+  background-color:#74cdf0;
+}
 
