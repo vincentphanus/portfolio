@@ -4,9 +4,7 @@ html{
     clip:auto;
     overflow:hidden;
 }
-body{
-  min-width:1000px;
-}
+
 .background-img{
   position:absolute;
   height:60vh;
@@ -147,6 +145,6 @@ button:hover{
 
 @media only screen and (max-width: 900px) {
   body{
-    display:'none';
+    display:none;
   }
 }
